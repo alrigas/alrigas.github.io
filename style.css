@@ -1,0 +1,96 @@
+html{
+    --color1: rgba(56, 77, 72, 1); /* arsenic */
+    --color2: rgba(110, 114, 113, 1); /* nickel */
+    --color3: rgba(172, 173, 148, 1); /* silver chalice */
+    --color4: rgba(216, 212, 213, 1); /* light gray */
+    --color5: rgba(226, 226, 226, 1); /* platinum */
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: var(--color1);
+    margin-left: auto;
+    font-size: 16px;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    background-color: var(--color1);
+}
+
+nav a{
+    flex: 1;
+    padding: 1rem;
+    color: var(--color5);
+}
+
+nav a:hover{
+    color: var(--color3);
+}
+
+section{
+    padding: 0 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Bitter', serif;   
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    background-color: var(--color1);
+    color: var(--color5);
+    margin: 0;
+    padding: 1rem;
+}
+
+h2,h3,h4,h5 {
+    font-family: 'Bitter', serif;
+    color: var(--color1);
+}
+
+h3{
+    color: #6E847E;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+li{
+    line-height: 1.5rem;
+}
+
+strong{
+    font-family: 'Bitter', serif;
+    /* font-size: 1.25rem; */
+}
+
+a{
+    color: var(--color2)
+}
+
+blockquote {
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: var(--color4);
+    overflow: auto;
+    margin: 2rem 0;
+}
+
+cite{
+    float: right;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--color1);
+}
+
+footer h4{
+    color: var(--color5);
+}
